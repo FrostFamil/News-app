@@ -15,6 +15,7 @@
 		8DA80BA42525096B006EA166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA80BA22525096B006EA166 /* LaunchScreen.storyboard */; };
 		8DA80BAE25250FAE006EA166 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA80BAD25250FAE006EA166 /* NetworkManager.swift */; };
 		8DA80BB22525119F006EA166 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA80BB12525119F006EA166 /* PostData.swift */; };
+		8DA80BB825251A81006EA166 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA80BB725251A81006EA166 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8DA80BA52525096B006EA166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA80BAD25250FAE006EA166 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8DA80BB12525119F006EA166 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		8DA80BB725251A81006EA166 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 				8DA80BAC25250F9B006EA166 /* Models */,
 				8DA80B972525096A006EA166 /* AppDelegate.swift */,
 				8DA80B992525096A006EA166 /* SceneDelegate.swift */,
-				8DA80B9B2525096A006EA166 /* ContentView.swift */,
+				8DA80BB525251A6E006EA166 /* Views */,
 				8DA80B9D2525096B006EA166 /* Assets.xcassets */,
 				8DA80BA22525096B006EA166 /* LaunchScreen.storyboard */,
 				8DA80BA52525096B006EA166 /* Info.plist */,
@@ -87,6 +89,15 @@
 				8DA80BB12525119F006EA166 /* PostData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8DA80BB525251A6E006EA166 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DA80B9B2525096A006EA166 /* ContentView.swift */,
+				8DA80BB725251A81006EA166 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA80BB22525119F006EA166 /* PostData.swift in Sources */,
+				8DA80BB825251A81006EA166 /* DetailView.swift in Sources */,
 				8DA80BAE25250FAE006EA166 /* NetworkManager.swift in Sources */,
 				8DA80B982525096A006EA166 /* AppDelegate.swift in Sources */,
 				8DA80B9A2525096A006EA166 /* SceneDelegate.swift in Sources */,
