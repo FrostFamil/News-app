@@ -32,6 +32,7 @@
 		8DA80BB12525119F006EA166 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		8DA80BB725251A81006EA166 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8DA80BBA25251EE6006EA166 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8DA80BBD25252110006EA166 /* News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = News.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		8DA80B962525096A006EA166 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				8DA80BBD25252110006EA166 /* News.entitlements */,
 				8DA80BAC25250F9B006EA166 /* Models */,
 				8DA80B972525096A006EA166 /* AppDelegate.swift */,
 				8DA80B992525096A006EA166 /* SceneDelegate.swift */,
@@ -318,8 +320,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = News/News.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
+				DEVELOPMENT_TEAM = UYF2MNN4V2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,6 +333,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FamilSamadli.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,8 +344,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = News/News.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
+				DEVELOPMENT_TEAM = UYF2MNN4V2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = News/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +357,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FamilSamadli.News;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
